@@ -1,0 +1,239 @@
+(footprint "SSD1306"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 15.24 22.86 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "62f93afe-b9ca-404f-9af9-4480cbd52841")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "SSD1306"
+		(at 5.08 3.58 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b3ac0e07-0567-4f0c-8dab-2a5ad7b84a63")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7d88b959-601b-49fc-b45a-17c0ac4eaa2e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8f04d363-3129-4680-a245-453ae405b627")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -10 -5)
+		(end 17 -5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f51218a0-6527-4198-923d-caffa605bb6c")
+	)
+	(fp_line
+		(start -10 22)
+		(end -10 -5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c1f71de4-7215-4b23-b8c2-953cc33cc037")
+	)
+	(fp_line
+		(start 17 -5)
+		(end 17 22)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "627251bd-1ad9-4fab-82a8-54e22fcc5d8c")
+	)
+	(fp_line
+		(start 17 22)
+		(end -10 22)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1738600b-c7a1-4a3b-914f-b7777dedd5a0")
+	)
+	(fp_rect
+		(start -10 -5)
+		(end 17 22)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "14e2f534-eef8-47a4-a452-390518f5545c")
+	)
+	(fp_text user "VCC"
+		(at 0.58 0.5 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "24f13b49-55f4-4bde-9efd-5ca38f031d62")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "GND"
+		(at 3.08 0.5 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f0e69f48-b873-4ac2-8ba3-c7f0cd3957ed")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "SCK"
+		(at 5.58 0.5 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "21ea5a4d-4b76-4d50-bda2-ab68b359f055")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "SDA"
+		(at 8.08 0.5 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "52db9e1c-49b2-4991-8f14-45f7bbbe714e")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 5.08 5.08 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c344032a-7c01-45e8-9606-dce44c0decfc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 -2.54)
+		(size 1.27 1.27)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f6410e03-fb43-43f0-bc07-6ca07a562a2c")
+	)
+	(pad "2" thru_hole roundrect
+		(at 2.54 -2.54)
+		(size 1.27 1.27)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "45ada1db-5943-46ea-a56e-637acb410ae1")
+	)
+	(pad "3" thru_hole roundrect
+		(at 5.08 -2.54)
+		(size 1.27 1.27)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "59c83059-b483-48e9-8b17-bbbcfa0e0a57")
+	)
+	(pad "4" thru_hole roundrect
+		(at 7.62 -2.54)
+		(size 1.27 1.27)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "9d06f306-c39d-4b53-b115-df3279c74160")
+	)
+	(zone
+		(layer "F.SilkS")
+		(uuid "fe718e45-9e9f-4c07-a07e-1953eb905bc5")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(keepout
+			(tracks allowed)
+			(vias allowed)
+			(pads not_allowed)
+			(copperpour allowed)
+			(footprints not_allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy -10 -5) (xy 17 -5) (xy 17 22) (xy -10 22)
+			)
+		)
+	)
+	(embedded_fonts no)
+)
